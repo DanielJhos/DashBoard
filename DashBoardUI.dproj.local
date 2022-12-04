@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/07/04 19:22:01.000.695,=C:\Users\danie\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/27 20:29:25.000.578,=C:\Users\danie\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/28 20:19:49.000.131,=C:\Users\danie\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/28 20:20:20.000.023,E:\Delphi\Delphi RAD\DashBoard\DashBoard.fmx=C:\Users\danie\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2022/10/28 20:20:20.000.023,E:\Delphi\Delphi RAD\DashBoard\DashBoard.pas=C:\Users\danie\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/28 20:20:49.000.563,E:\Delphi\Delphi RAD\DashBoard\DashBoardUI.dproj=C:\Users\danie\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/10/28 21:05:31.000.731,=E:\Delphi\Delphi RAD\DashBoard\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

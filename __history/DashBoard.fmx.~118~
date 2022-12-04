@@ -1,0 +1,1828 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 702
+  ClientWidth = 908
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Client
+    Size.Width = 908.000000000000000000
+    Size.Height = 702.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    ColumnCollection = <
+      item
+        Value = 50.000000000000040000
+      end
+      item
+        Value = 49.999999999999960000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = Rectangle2
+        Row = 0
+      end
+      item
+        Column = 1
+        Control = Rectangle3
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = Rectangle4
+        Row = 1
+      end
+      item
+        Column = 1
+        Control = Rectangle5
+        Row = 1
+      end>
+    RowCollection = <
+      item
+        Value = 44.057828576402140000
+      end
+      item
+        Value = 55.942171423597860000
+      end>
+    object Rectangle2: TRectangle
+      Align = Client
+      Fill.Color = xFF152B3C
+      Padding.Left = 20.000000000000000000
+      Padding.Top = 20.000000000000000000
+      Padding.Right = 20.000000000000000000
+      Padding.Bottom = 20.000000000000000000
+      Margins.Left = 7.000000000000000000
+      Margins.Top = 7.000000000000000000
+      Margins.Right = 7.000000000000000000
+      Margins.Bottom = 7.000000000000000000
+      Size.Width = 440.000000000000000000
+      Size.Height = 295.285949707031300000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object GridPanelLayout2: TGridPanelLayout
+        Align = Client
+        Size.Width = 400.000000000000000000
+        Size.Height = 255.285949707031300000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ColumnCollection = <
+          item
+            Value = 100.000000000000000000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = Text1
+            Row = 0
+          end
+          item
+            Column = 0
+            Control = Text2
+            Row = 2
+          end
+          item
+            Column = 0
+            Control = Text3
+            Row = 3
+          end
+          item
+            Column = 0
+            Control = GridPanelLayout6
+            Row = 1
+          end
+          item
+            Column = 0
+            Control = Text28
+            Row = 4
+          end>
+        RowCollection = <
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 100.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end>
+        object Text1: TText
+          Align = Client
+          Size.Width = 400.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Reports'
+          TextSettings.Font.Family = 'Tahoma'
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Leading
+        end
+        object Text2: TText
+          Align = Client
+          Size.Width = 400.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Most Active Time'
+          TextSettings.Font.Family = 'Tahoma'
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.FontColor = xFF46B692
+          TextSettings.HorzAlign = Leading
+        end
+        object Text3: TText
+          Align = Client
+          Size.Width = 400.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Date: Monday 28 October 2018'
+          TextSettings.Font.Family = 'Tahoma'
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Leading
+        end
+        object GridPanelLayout6: TGridPanelLayout
+          Align = Client
+          Size.Width = 400.000000000000000000
+          Size.Height = 100.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          ColumnCollection = <
+            item
+              Value = 19.999999999999450000
+            end
+            item
+              Value = 19.975649880515690000
+            end
+            item
+              Value = 19.978828825581230000
+            end
+            item
+              Value = 20.010612750688710000
+            end
+            item
+              Value = 20.034908543214920000
+            end>
+          ControlCollection = <
+            item
+              Column = 0
+              Control = Rectangle6
+              Row = 0
+            end
+            item
+              Column = 1
+              Control = Rectangle7
+              Row = 0
+            end
+            item
+              Column = 2
+              Control = Rectangle8
+              Row = 0
+            end
+            item
+              Column = 3
+              Control = Rectangle9
+              Row = 0
+            end
+            item
+              Column = 4
+              Control = Rectangle10
+              Row = 0
+            end>
+          RowCollection = <
+            item
+              Value = 100.000000000000000000
+            end>
+          object Rectangle6: TRectangle
+            Align = Client
+            Fill.Kind = None
+            Sides = [Right]
+            Size.Width = 80.000000000000000000
+            Size.Height = 100.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = xFFCFD2D4
+            Stroke.Thickness = 0.300000011920929000
+            object Text13: TText
+              Align = Top
+              Size.Width = 80.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Text = 'Sent'
+              TextSettings.Font.Family = 'Tahoma'
+              TextSettings.FontColor = xFFEDEDED
+            end
+            object Text14: TText
+              Align = Top
+              Position.Y = 33.000000000000000000
+              Size.Width = 80.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Text = '100%'
+              TextSettings.Font.Family = 'Tahoma'
+              TextSettings.Font.Size = 16.000000000000000000
+              TextSettings.FontColor = xFFEDEDED
+            end
+            object Text15: TText
+              Align = Top
+              Position.Y = 66.000000000000000000
+              Size.Width = 80.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Text = '1000,00'
+              TextSettings.Font.Family = 'Tahoma'
+              TextSettings.FontColor = xFFEDEDED
+            end
+          end
+          object Rectangle7: TRectangle
+            Align = Client
+            Fill.Kind = None
+            Sides = [Right]
+            Size.Width = 79.902603149414060000
+            Size.Height = 100.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = xFFCFD2D4
+            Stroke.Thickness = 0.300000011920929000
+            object Text16: TText
+              Align = Top
+              Size.Width = 79.902603149414060000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Text = 'Open'
+              TextSettings.Font.Family = 'Tahoma'
+              TextSettings.FontColor = xFFEDEDED
+            end
+            object Text17: TText
+              Align = Top
+              Position.Y = 33.000000000000000000
+              Size.Width = 79.902603149414060000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Text = '20%'
+              TextSettings.Font.Family = 'Tahoma'
+              TextSettings.Font.Size = 16.000000000000000000
+              TextSettings.FontColor = xFFEDEDED
+            end
+            object Text18: TText
+              Align = Top
+              Position.Y = 66.000000000000000000
+              Size.Width = 79.902603149414060000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Text = '200,00'
+              TextSettings.Font.Family = 'Tahoma'
+              TextSettings.FontColor = xFFEDEDED
+            end
+          end
+          object Rectangle8: TRectangle
+            Align = Client
+            Fill.Kind = None
+            Sides = [Right]
+            Size.Width = 79.915313720703130000
+            Size.Height = 100.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = xFFCFD2D4
+            Stroke.Thickness = 0.300000011920929000
+            object Text19: TText
+              Align = Top
+              Size.Width = 79.915313720703130000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Text = 'Clicked'
+              TextSettings.Font.Family = 'Tahoma'
+              TextSettings.FontColor = xFFEDEDED
+            end
+            object Text20: TText
+              Align = Top
+              Position.Y = 33.000000000000000000
+              Size.Width = 79.915313720703130000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Text = '10%'
+              TextSettings.Font.Family = 'Tahoma'
+              TextSettings.Font.Size = 16.000000000000000000
+              TextSettings.FontColor = xFFEDEDED
+            end
+            object Text21: TText
+              Align = Top
+              Position.Y = 66.000000000000000000
+              Size.Width = 79.915313720703130000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Text = '100,00'
+              TextSettings.Font.Family = 'Tahoma'
+              TextSettings.FontColor = xFFEDEDED
+            end
+          end
+          object Rectangle9: TRectangle
+            Align = Client
+            Fill.Kind = None
+            Sides = [Right]
+            Size.Width = 80.042434692382810000
+            Size.Height = 100.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = xFFCFD2D4
+            Stroke.Thickness = 0.300000011920929000
+            object Text22: TText
+              Align = Top
+              Size.Width = 80.042434692382810000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Text = 'Engagment'
+              TextSettings.Font.Family = 'Tahoma'
+              TextSettings.FontColor = xFFEDEDED
+            end
+            object Text23: TText
+              Align = Top
+              Position.Y = 33.000000000000000000
+              Size.Width = 80.042434692382810000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Text = '30%'
+              TextSettings.Font.Family = 'Tahoma'
+              TextSettings.Font.Size = 16.000000000000000000
+              TextSettings.FontColor = xFFEDEDED
+            end
+            object Text24: TText
+              Align = Top
+              Position.Y = 66.000000000000000000
+              Size.Width = 80.042434692382810000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Text = '300,00'
+              TextSettings.Font.Family = 'Tahoma'
+              TextSettings.FontColor = xFFEDEDED
+            end
+          end
+          object Rectangle10: TRectangle
+            Align = Client
+            Fill.Kind = None
+            Sides = []
+            Size.Width = 80.139648437500000000
+            Size.Height = 100.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = xFFCFD2D4
+            Stroke.Thickness = 0.300000011920929000
+            object Text25: TText
+              Align = Top
+              Size.Width = 80.139648437500000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Text = 'Interest'
+              TextSettings.Font.Family = 'Tahoma'
+              TextSettings.FontColor = xFFEDEDED
+            end
+            object Text26: TText
+              Align = Top
+              Position.Y = 33.000000000000000000
+              Size.Width = 80.139648437500000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Text = '30%'
+              TextSettings.Font.Family = 'Tahoma'
+              TextSettings.Font.Size = 16.000000000000000000
+              TextSettings.FontColor = xFF44BB86
+            end
+            object Text27: TText
+              Align = Top
+              Position.Y = 66.000000000000000000
+              Size.Width = 80.139648437500000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.FontColor = xFFEDEDED
+            end
+          end
+        end
+        object Text28: TText
+          Align = Client
+          Size.Width = 400.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Time : 10:05 - 11:00 AM'
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Leading
+        end
+      end
+    end
+    object Rectangle3: TRectangle
+      Align = Client
+      Fill.Color = xFF152B3C
+      Padding.Left = 20.000000000000000000
+      Padding.Top = 20.000000000000000000
+      Padding.Right = 20.000000000000000000
+      Padding.Bottom = 20.000000000000000000
+      Margins.Left = 7.000000000000000000
+      Margins.Top = 7.000000000000000000
+      Margins.Right = 7.000000000000000000
+      Margins.Bottom = 7.000000000000000000
+      Size.Width = 440.000000000000000000
+      Size.Height = 295.285949707031300000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object GridPanelLayout3: TGridPanelLayout
+        Align = Client
+        Size.Width = 400.000000000000000000
+        Size.Height = 255.285949707031300000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ColumnCollection = <
+          item
+            Value = 100.000000000000000000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = Text4
+            Row = 0
+          end
+          item
+            Column = 0
+            Control = Text5
+            Row = 2
+          end
+          item
+            Column = 0
+            Control = Text6
+            Row = 1
+          end>
+        RowCollection = <
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 200.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end>
+        object Text4: TText
+          Align = Client
+          Size.Width = 400.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Platforms'
+          TextSettings.Font.Family = 'Tahoma'
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Leading
+        end
+        object Text5: TText
+          Align = Client
+          Size.Width = 400.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Leading
+        end
+        object Text6: TText
+          Align = Client
+          Size.Width = 400.000000000000000000
+          Size.Height = 200.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Leading
+          object GridPanelLayout7: TGridPanelLayout
+            Align = Client
+            Size.Width = 400.000000000000000000
+            Size.Height = 200.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            ColumnCollection = <
+              item
+                SizeStyle = Absolute
+                Value = 250.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 20.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 150.000000000000000000
+              end>
+            ControlCollection = <
+              item
+                Column = 0
+                Control = Rectangle1
+                Row = 0
+              end
+              item
+                Column = 1
+                Control = Line1
+                Row = 0
+              end
+              item
+                Column = 2
+                Control = Rectangle11
+                Row = 0
+              end>
+            RowCollection = <
+              item
+                Value = 100.000000000000000000
+              end
+              item
+                SizeStyle = Auto
+              end>
+            object Rectangle1: TRectangle
+              Align = Client
+              Fill.Kind = None
+              Size.Width = 250.000000000000000000
+              Size.Height = 200.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Arc1: TArc
+                Align = Center
+                Size.Width = 140.000000000000000000
+                Size.Height = 140.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = xFF404D5E
+                Stroke.Thickness = 21.000000000000000000
+                Stroke.Cap = Round
+                EndAngle = 360.000000000000000000
+              end
+              object Arc2: TArc
+                Align = Center
+                Size.Width = 140.000000000000000000
+                Size.Height = 140.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = xFF0C7E7E
+                Stroke.Thickness = 21.000000000000000000
+                Stroke.Cap = Round
+                StartAngle = 200.000000000000000000
+                EndAngle = 60.000000000000000000
+                object FloatAnimation1: TFloatAnimation
+                  Enabled = True
+                  Duration = 2.000000000000000000
+                  PropertyName = 'EndAngle'
+                  StartValue = 0.000000000000000000
+                  StopValue = 60.000000000000000000
+                end
+              end
+              object Arc3: TArc
+                Align = Center
+                Size.Width = 140.000000000000000000
+                Size.Height = 140.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = xFFFF703F
+                Stroke.Thickness = 21.000000000000000000
+                Stroke.Cap = Round
+                StartAngle = 240.000000000000000000
+                EndAngle = 20.000000000000000000
+                object FloatAnimation2: TFloatAnimation
+                  Enabled = True
+                  Duration = 2.000000000000000000
+                  PropertyName = 'EndAngle'
+                  StartValue = 0.000000000000000000
+                  StopValue = 20.000000000000000000
+                end
+              end
+              object Circle1: TCircle
+                Align = Center
+                Fill.Color = xFF46B692
+                Size.Width = 50.000000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+              end
+              object Circle2: TCircle
+                Align = Center
+                Fill.Bitmap.Bitmap.PNG = {
+                  89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+                  87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                  0175494441546843EDD9BD4A03411007F0B9BB78DAF881B60722A8A562A12945
+                  10620A397D0B1F21BE815868EB338885128F1013B0931C56B68910C1D80A898D
+                  9EC9AD6E1C41416177BD384AE6D7DCEC14CBFE6F96143960ACCF59F8D4B2B4B6
+                  E95922DE8F3A90711D18C6B691D73D1E062C2859A29D0BCB410DDBCAB403C8C3
+                  3F8BF6950BF638B61211417C3F988AE72A4170872D25363E95C9379FF4E125B9
+                  671C397BB854A63D818555BFF57E6DB6723BE04D4E77FBA61AF51A1CEC6EE3AA
+                  D30C8BA763B850A23D818F77FEA78797BCA919AC2467140B65DA01FE1A0E408D
+                  0350E300D43800350E408D0350E300D43800350E408D0350E300D43800350E40
+                  ADBF03346EAEB132775BAF626546FBEFF574C61758F644583CD13AD3BFBF42FA
+                  1358F69B300423B8FCD24A761DABCFCE0B79ACBEF30B1F38840B652C7BC02961
+                  A14C7B028BD98D593B7EBA007027B09588EE473E01E9CA595EEB97417B029785
+                  E3AA95B2E7452C0EE1115AD836F7B6C791C9E11963002F8BB45CEFB62264BF00
+                  00000049454E44AE426082}
+                Fill.Bitmap.WrapMode = TileStretch
+                Fill.Kind = Bitmap
+                Size.Width = 50.000000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+              end
+              object Circle3: TCircle
+                Anchors = []
+                Fill.Color = xFF404D5E
+                Position.X = 10.000000000000000000
+                Position.Y = 11.000000000000000000
+                Size.Width = 40.000000000000000000
+                Size.Height = 40.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text33: TText
+                  Align = Center
+                  Size.Width = 40.000000000000000000
+                  Size.Height = 33.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '67%'
+                  TextSettings.Font.Family = 'Tahoma'
+                  TextSettings.FontColor = xFFEDEDED
+                end
+              end
+              object Circle4: TCircle
+                Anchors = []
+                Fill.Color = xFFF75B54
+                Position.X = 10.000000000000000000
+                Position.Y = 75.000000000000000000
+                Size.Width = 40.000000000000000000
+                Size.Height = 40.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text46: TText
+                  Align = Center
+                  Size.Width = 40.000000000000000000
+                  Size.Height = 33.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '11%'
+                  TextSettings.Font.Family = 'Tahoma'
+                  TextSettings.FontColor = xFFEDEDED
+                end
+              end
+              object Circle5: TCircle
+                Anchors = []
+                Fill.Color = xFF46B692
+                Position.X = 10.000000000000000000
+                Position.Y = 139.000000000000000000
+                Size.Width = 40.000000000000000000
+                Size.Height = 40.000000000000000000
+                Size.PlatformDefault = False
+                object Text47: TText
+                  Align = Center
+                  Size.Width = 40.000000000000000000
+                  Size.Height = 33.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '22%'
+                  TextSettings.Font.Family = 'Tahoma'
+                  TextSettings.FontColor = xFFEDEDED
+                end
+              end
+            end
+            object Line1: TLine
+              Anchors = []
+              LineType = Right
+              Position.X = 250.000000000000000000
+              Position.Y = 50.000000000000000000
+              Size.Width = 20.000000000000000000
+              Size.Height = 100.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Color = xFF869AB4
+              Stroke.Thickness = 0.699999988079071000
+            end
+            object Rectangle11: TRectangle
+              Align = Client
+              Fill.Kind = None
+              Size.Width = 150.000000000000000000
+              Size.Height = 200.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Rectangle12: TRectangle
+                Anchors = []
+                Fill.Color = xFF404D5E
+                Position.X = 7.000000000000000000
+                Position.Y = 14.000000000000000000
+                Size.Width = 17.000000000000000000
+                Size.Height = 17.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+              end
+              object Rectangle13: TRectangle
+                Anchors = []
+                Fill.Color = xFF46B692
+                Position.X = 7.000000000000000000
+                Position.Y = 148.000000000000000000
+                Size.Width = 17.000000000000000000
+                Size.Height = 17.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+              end
+              object Rectangle14: TRectangle
+                Anchors = []
+                Fill.Color = xFFF75B54
+                Position.X = 7.000000000000000000
+                Position.Y = 79.000000000000000000
+                Size.Width = 17.000000000000000000
+                Size.Height = 17.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+              end
+              object Text34: TText
+                Anchors = []
+                Position.X = 32.000000000000000000
+                Position.Y = 146.000000000000000000
+                Size.Width = 85.000000000000000000
+                Size.Height = 25.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'Mobile'
+                TextSettings.FontColor = claWhite
+                TextSettings.HorzAlign = Leading
+              end
+              object Text35: TText
+                Anchors = []
+                Position.X = 32.000000000000000000
+                Position.Y = 75.000000000000000000
+                Size.Width = 85.000000000000000000
+                Size.Height = 25.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'Tablet'
+                TextSettings.FontColor = claWhite
+                TextSettings.HorzAlign = Leading
+              end
+              object Text36: TText
+                Anchors = []
+                Position.X = 32.000000000000000000
+                Position.Y = 9.000000000000000000
+                Size.Width = 85.000000000000000000
+                Size.Height = 25.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'Desktop'
+                TextSettings.FontColor = claWhite
+                TextSettings.HorzAlign = Leading
+              end
+            end
+          end
+        end
+      end
+    end
+    object Rectangle4: TRectangle
+      Align = Client
+      Fill.Color = xFF152B3C
+      Padding.Left = 20.000000000000000000
+      Padding.Top = 20.000000000000000000
+      Padding.Right = 20.000000000000000000
+      Padding.Bottom = 20.000000000000000000
+      Margins.Left = 7.000000000000000000
+      Margins.Top = 7.000000000000000000
+      Margins.Right = 7.000000000000000000
+      Margins.Bottom = 7.000000000000000000
+      Size.Width = 440.000000000000000000
+      Size.Height = 378.714050292968800000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object GridPanelLayout4: TGridPanelLayout
+        Align = Client
+        Size.Width = 400.000000000000000000
+        Size.Height = 338.714050292968800000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ColumnCollection = <
+          item
+            Value = 100.000000000000000000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = Text7
+            Row = 0
+          end
+          item
+            Column = 0
+            Control = Text8
+            Row = 1
+          end
+          item
+            Column = 0
+            Control = Text9
+            Row = 2
+          end
+          item
+            Column = 0
+            Control = Text30
+            Row = 4
+          end
+          item
+            Column = 0
+            Control = Text31
+            Row = 5
+          end
+          item
+            Column = 0
+            Control = Text32
+            Row = 6
+          end
+          item
+            Column = 0
+            Control = Text29
+            Row = 3
+          end>
+        RowCollection = <
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end>
+        object Text7: TText
+          Align = Client
+          Size.Width = 400.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Reports'
+          TextSettings.Font.Family = 'Tahoma'
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Leading
+        end
+        object Text8: TText
+          Align = Client
+          Size.Width = 400.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Regions/Locations'
+          TextSettings.Font.Family = 'Tahoma'
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.FontColor = xFF46B692
+          TextSettings.HorzAlign = Leading
+        end
+        object Text9: TText
+          Align = Client
+          Size.Width = 400.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 
+            'Mobile users from Algeria                                       ' +
+            '                                          17%'
+          TextSettings.Font.Family = 'Tahoma'
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Leading
+        end
+        object Text30: TText
+          Align = Client
+          Size.Width = 400.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'ISP: Algeria telecom'
+          TextSettings.Font.Family = 'Tahoma'
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Leading
+        end
+        object Text31: TText
+          Align = Client
+          Size.Width = 400.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Device: Sumsung Galaxy S9 Edge'
+          TextSettings.Font.Family = 'Tahoma'
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Leading
+        end
+        object Text32: TText
+          Align = Client
+          Size.Width = 400.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Screen Rez: 3600x2400'
+          TextSettings.Font.Family = 'Tahoma'
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Leading
+        end
+        object Text29: TText
+          Align = Client
+          Size.Width = 400.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Location: Souk Ahras'
+          TextSettings.Font.Family = 'Tahoma'
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Leading
+        end
+      end
+    end
+    object Rectangle5: TRectangle
+      Align = Client
+      Fill.Color = xFF152B3C
+      Padding.Left = 20.000000000000000000
+      Padding.Top = 20.000000000000000000
+      Padding.Right = 20.000000000000000000
+      Padding.Bottom = 20.000000000000000000
+      Margins.Left = 7.000000000000000000
+      Margins.Top = 7.000000000000000000
+      Margins.Right = 7.000000000000000000
+      Margins.Bottom = 7.000000000000000000
+      Size.Width = 440.000000000000000000
+      Size.Height = 378.714050292968800000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object GridPanelLayout5: TGridPanelLayout
+        Align = Client
+        Size.Width = 400.000000000000000000
+        Size.Height = 338.714050292968800000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ColumnCollection = <
+          item
+            Value = 100.000000000000000000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = Text10
+            Row = 0
+          end
+          item
+            Column = 0
+            Control = Text11
+            Row = 2
+          end
+          item
+            Column = 0
+            Control = Text12
+            Row = 1
+          end
+          item
+            Column = 0
+            Control = Text38
+            Row = 3
+          end
+          item
+            Column = 0
+            Control = Rectangle16
+            Row = 4
+          end
+          item
+            Column = 0
+            Control = Rectangle25
+            Row = 5
+          end
+          item
+            Column = 0
+            Control = Rectangle28
+            Row = 6
+          end>
+        RowCollection = <
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 135.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 33.000000000000000000
+          end>
+        object Text10: TText
+          Align = Client
+          Size.Width = 400.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Interactions/Engagement'
+          TextSettings.Font.Family = 'Tahoma'
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Leading
+        end
+        object Text11: TText
+          Align = Client
+          Size.Width = 400.000000000000000000
+          Size.Height = 135.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Leading
+          object GridPanelLayout8: TGridPanelLayout
+            Align = Client
+            Size.Width = 400.000000000000000000
+            Size.Height = 135.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            ColumnCollection = <
+              item
+                Value = 25.008005101709610000
+              end
+              item
+                Value = 24.989503157089210000
+              end
+              item
+                Value = 24.998331248786990000
+              end
+              item
+                Value = 25.004160492414210000
+              end>
+            ControlCollection = <
+              item
+                Column = 0
+                Control = Rectangle19
+                Row = 0
+              end
+              item
+                Column = 1
+                Control = Rectangle20
+                Row = 0
+              end
+              item
+                Column = 2
+                Control = Rectangle21
+                Row = 0
+              end
+              item
+                Column = 3
+                Control = Rectangle22
+                Row = 0
+              end>
+            RowCollection = <
+              item
+                Value = 100.000000000000000000
+              end>
+            object Rectangle19: TRectangle
+              Anchors = []
+              Fill.Kind = None
+              Position.X = 10.303298950195310000
+              Position.Y = 17.500000000000000000
+              Size.Width = 79.425422668457030000
+              Size.Height = 100.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Circle7: TCircle
+                Align = Center
+                Fill.Kind = None
+                Size.Width = 88.000000000000000000
+                Size.Height = 88.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = xFF292929
+                Stroke.Thickness = 7.000000000000000000
+              end
+              object Circle8: TCircle
+                Align = Center
+                Fill.Kind = None
+                Size.Width = 50.000000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = xFF292929
+                Stroke.Thickness = 3.000000000000000000
+              end
+              object Arc6: TArc
+                Align = Center
+                Size.Width = 88.000000000000000000
+                Size.Height = 88.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = xFF00A8C6
+                Stroke.Thickness = 7.000000000000000000
+                StartAngle = -90.000000000000000000
+                EndAngle = 50.000000000000000000
+                object FloatAnimation3: TFloatAnimation
+                  Enabled = True
+                  Duration = 2.000000000000000000
+                  PropertyName = 'EndAngle'
+                  StartValue = 0.000000000000000000
+                  StopValue = 50.000000000000000000
+                end
+              end
+              object Arc7: TArc
+                Align = Center
+                Size.Width = 50.000000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = xFFF75B54
+                StartAngle = -90.000000000000000000
+                EndAngle = 30.000000000000000000
+                object FloatAnimation4: TFloatAnimation
+                  Enabled = True
+                  Duration = 2.000000000000000000
+                  PropertyName = 'EndAngle'
+                  StartValue = 0.000000000000000000
+                  StopValue = 30.000000000000000000
+                end
+              end
+              object Circle9: TCircle
+                Align = Center
+                Fill.Bitmap.Bitmap.PNG = {
+                  89504E470D0A1A0A0000000D4948445200000080000000800806000000C33E61
+                  CB000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                  0D4349444154785EED9D7DB0175519C7B9570C52140153B0370B491819C7FE70
+                  C460FAA3375110744A33D3E91D13848C9C4AA73F35A7A651118C175FB272C4D1
+                  72422022878C4C52F48F1A7092378797AC285E52330BE1D2E77BF7B93F76EF9E
+                  FDDDDFBD777FFB3BBBF77C669E39BBCF39BBFB9C739E3DFB76F69C4181402010
+                  08040281402010080402814020100804028140201008040281402010A80A6D16
+                  7A454747C74904939189C8D9C818E4C4B6B636E9BDE7E8D1A3AF13BC81FC15D9
+                  826CC6F667907FB3EC15DE3800957E3AC1D5C815C8F914D660E9AB024E719860
+                  23F228B2BCBDBDFD1FD2B79A963B0015AFB3FC66E4CAAA557A1638C35B047284
+                  DB7184173B952DA2650E6067FC0F90CF52F15E5E8A9A0D8ED041D67F4AF8CD56
+                  B5082D29782AFF5A82BBC9FC2991666083031C24B801277838D21447A10E4046
+                  8722F750F15F34555D48BB936033B20D7915F92F5206862272EE71C844F2FB5E
+                  297B82FCDE4B301747F85FA4A910646E3867FE53847521CDB3C86CA4A1422B03
+                  64EB4CF23347798B72990D69D62127DBA6D5807C0D475EE8CC6106647A157281
+                  6D5259C8E32464B565DB09F1CF23D57002F23394CC649EF9C4ED442EB1E40306
+                  F23C0DD965C5908238B504432C79792113F75B9E5210B7826084251D7090FF91
+                  C8CAA834D210B7D49296133270ADE5250571F710B45BD2010B65701C65B1B8B3
+                  501C10F7194B5A2E30FC74E4A0E52381326CC92A0D59D5E56F1C3281E561A676
+                  429A059D85D30DF407907758B2F280D17AC19102BD9AFD4A9FF9E4F1426425F2
+                  6694EBCE7C1F46D623332D590292A8255815A54E82FE014B560E307822D261F6
+                  D740B593A0B2D77CF2D6461EBFEBCA7B1CA297236FB7CD6AA01B85ECB66435D0
+                  1D41265832FFC1D887CDF604E8A759924A42FE6EB5ACF608691F2748B584E8A7
+                  462992A0FF8925F11B0CD5B5FF2DB3BB06BA9596A49290BFF391BA677E77487E
+                  8D6D9E00FD1A4B5203DD21C4FF7B018C9C6F362740FF214B5249C8DF6396D586
+                  611BE79740F4932C4902F4732D89BF60E406B3B706BA672DBA9290C5C1E4F1F5
+                  28B709F4F6F33CE2CE4274F3EBE2FDB69B04A4DF68F135D03D6DD17E82812721
+                  AEE67FB625A924E4EF0CCB6A02F4932C899C6404EB47A29863A0FBB82549807E
+                  9E25A981EE1041DDC7C9DE92F7E3D8E43677A78ED5165695ACAFAA872C14EA04
+                  D2112D26C8AA83549951B6C7E300B95E4A73FD1C8C877E0323D5C9A30606EF6C
+                  6F6F7F9FADB614EC1B45F00113F52F3C1111EABFA77E7C5B912DD87B40CA4621
+                  8F8391D7C87BE2D10EDDEFD0A9EF832E0FEAFF90BAE9437F36C7D3715360EF2E
+                  B6798FAD7642FAF9A4BFD356FD0283EFC5C004E89EB0E8C2E1D84390CB9165C8
+                  7633A94748BB0D59CAE265C8DB6C7775217DD6353E131DC73677427CEAAB21BA
+                  2516ED1F18977A9385AE706FE5B0FAFE7E37B23FB2A2EFB08F7DC802A46EFF04
+                  E2F599B7B78F815FB1CD9D109F7A3D8C2ED7132AEF7B0057B7ED7F59D874289C
+                  31C80394D3569ACEB9C8488BEA33EC6314328F45B50AF7B1EFD1514C129A653D
+                  E92C8AD67A86FDAC65BF3DBDE275955DAE5DE3F37680132C8CF31F0B9B0685A9
+                  57B03750A07F46BE801C6F51B9A17D225F62F1258E355BC78C628E41BCDE81F4
+                  D84493660D817A411F893499B8FE23F0F729800CB96E2A8F5AD814A88C5114E8
+                  131C7A21ABC3236D7D487F00D984A88B9644CB8DDEF80DE758FA94BD8263275A
+                  18F4876909AE276E1AA2F72189BB7ED6D5BF510E3A9D74AF45DABAA4CA8E6D0B
+                  EDC7D92BC860AADB1785749345E70EFBD6A7D697ED509990660F7227321DC97C
+                  9DAA38E452E42EE42FB67926A4D981A8E3A713929C4AFC85845308DF65EA8661
+                  9B9B3A0F94E4058BF60F1917D9780C65C2A27385FD7E10D96B877142FC53883E
+                  AEF4BAA5631B7D9EBD0459DFB9B30CCC86F36CB35C61DFC1015CB04F9DF99995
+                  4FDC56E41396BCDFB0AFA9C836DB7D0AD9829C65C973837D36DD01F2BE096C3A
+                  148A5EE6E80EFAB4489384025A42DCB95C637F6DAA7EC3BE7E45702EFB5E1669
+                  92982D6BB1ADDF4F1D45532A07A0027403F4630A3CF5669138BD67FFB26EC288
+                  CFFD0712F6FB26721DC798A56399BA06C7D4479D1F998DA5A16C0E3087824E75
+                  2AB10AF93415747FA4691E1C437FEF5C95E10433D05F6FABA5A0340E40F33A86
+                  02BED556BB731D15F3735B6E3A1CEB67D892F585F3366CD58FAFA5A04C2DC06D
+                  48EA399F336E4911677E777080651C5BAD4102F4FA2730CB51BDA3140E40419F
+                  49E0FA92B68D02FFBAADB682AF61C30E5B8EF3395A8152FCDB581607984F45BB
+                  5EEFEAF56FCBFE18A6E5799340DF091298ADF3A335BFF1DE01A87C7D8E4DFD1D
+                  83FEB754406E8F7A7D051B7E892DAEAE5AD798ED5E53060798C61975AAADC6F9
+                  BE853EF03D0B6B60F3486C9F6AABDE52864BC0C516D6A0605FA1805B7EF67781
+                  2DEAC6FD8AADC649D9EE1B6570808F5818E7310ABDA74FA985812DFAEAF778B4
+                  96E0A3167A8BD70EA0D7BE14EE585B8DB3CE429F48D984EDE36819BCFE15CEF7
+                  16408344BA78CE429F70FEFB800364E5C10B7C7780D417360AF40077DEFFB455
+                  6FC0267D9D7475E1CAFD2B619EF8EE00AE61E45C375BBEA0A161BBD3502FA556
+                  E1BB03B8FABF7937DE6E0C57372FAF077BF2DD01024DC67707D0DF3ADDF179C4
+                  70976DAE3C7883EF0EE0BAA93AC3421F79A78571340CACB7F8EE00A92F6D3C5B
+                  6B68356777B056C213C0686C73DDB4BABE167A83EF0EA0C9165CF838A268ED57
+                  F0383845561EBCC06B07E0D95AFFF66DB7D538DEBD62C5CE8FD9620D74FA452D
+                  5C02FAC96F2C8C7305857B9C2DB71CB3E593D15A021F5F5927F0DE013883F41F
+                  5D02741A9123B77EFFFD055B2EC626D74FA329DB7DA30C2D803A5CECB3E538DF
+                  B6D007BE65610D6CDE8F53ACB5556F29430BA06156523369A0FF304F032DEF70
+                  810DD3B1658AADC679C86CF79A32B400E20ECE288DB1D39D8554406AC4CDA2C0
+                  26FD0EBF205A3B06FA4354FE1DB6EA35A570009E067611A446CAA490F5A5EDAE
+                  68AD78A8688DFBE31AE64D7F2FEDB665AF294B0BA0CAFE0E81E60D4A807E16AD
+                  40DDA1569A01C7FC2AC7D6801109700A3DF6C9D652502607F83B857B8BAD7667
+                  3115F2295B6E3AD8A1C92DB38683B98516CB8B49211BA1340E2070024DAC901A
+                  7318BD9EC31F216E56A4691E3AF339CE723B6602F42BD0976A968FB23980864C
+                  F93C05FD72A4398655C8522A4843C2E57E63C8314F60BFF7719CC51995BF03BD
+                  867F69EA903879532A071034AF1ACBE7220ADCD9CC5201BA1FD84465E5361115
+                  FB9ACEF136B1EFD4355F10B797E022E2BD7EEDEBA2740E207082ED14763D2718
+                  8BACA6E29E46346053EA8CED096DA38A477ECFBE5622CE419DBB2A1F9BBCFEEA
+                  9745291D4050217F24984C05A42E075D90660AA2C12B7753917A673013C9FC75
+                  9B74A391CB48B388708F55BCA6B177421A55FA642AFF4F9166804381143A4A98
+                  60FFEA1FD0AB615A497F10D98C68965289969D135C6541FA5F1034B5CF3FC728
+                  D71841B2CE16E33475C814DD1370966A4CDF394843A39292FE14E41CE402132D
+                  37349135C790A368189ACB91665FF35365C7B173BDC9CCFB12E01A15D4357A68
+                  AE50114771841FB2389EF2D170AEAED7C6FD827D6AAC7E0D12359E636920AA22
+                  EEF69BDE2B3A6F077075806CE8CCCA032A662FA2A700FD92A58196F747317D87
+                  7DECD3BEA8F071EC5B43D114F992C75576B97632CDDB01FE66619CC2FF8CA192
+                  7621375269EA373013598238C7E477A1B4B6CD0CEDC3F6D58A77FBAE51485D3F
+                  9FF4995CAFCFDCB4B8268C506568889796832D23104D16A1FFF5D485BBAB8955
+                  B3AA9F3AD485CB9B6E5C94E76E6C79B7AD7682FD5E4F18A16773175E384099A0
+                  2CC75AD92540EF9C63A8AFE47D09D008D9876DB906BA4A4F18D924A65B588372
+                  5407930DD19AA7E0A1CFC853E3A0ABF4B471CD80327BDE8AAF06BAF516ED2F18
+                  79A3D99B007DA5278ECC13CA2A6BE2C83996C45F30F23444CFCC09D0557DEAB8
+                  DCA0ACD65AB1D5B032750D96E51F18FB50647612F4A9EB5A200965A4C756170F
+                  5A12FF2113E720AE59327721A51B52BD28281B4D1FBFC78AAB8695E5784B560E
+                  30F8C14EEBBB41665612F4FAF36CD551995036FA072205FAD498C4DE83DD9A2F
+                  47AF5153A0F777F2C31641992CB4E249807E3FE2FFB4F12E30FC6ACB470AE2D4
+                  BF6FC0B7042A03CA42B3943A21EE4A4B5A4EC88086557742DC2A4453C00C4894
+                  77C4D9EC0BE2F485B3DC9009CDDFBBCEF2948238F5D6B9D4920F18C8F30C2475
+                  C3D705714F12783FD8744390999391D49BAD38C4AF412AFFB248794452CFF971
+                  887F0EF1792CA4DE4386E404992D4117A4D988CC435C43C49612E5C5F254F724
+                  10A4791229ACF20B9DE18A8C0D21D0FF740DFDC04179E81BFC8BC816B6799575
+                  4DD05006D40B4A0344EAD3F3C4EE9F74B3207FFAE7407D0F0AFBABB825539CE1
+                  089A006211190D2F85808A57CFA5D9EDEDED8F469AE2C8FB73704390D1E504EA
+                  BFA779F612132C0F249477447F1BA99F61E1952F5AD202C4A135984070337215
+                  0591FBB4EF3E42A5ABD3AAFE2FBC1D7929D2B686963B40173882DE76E9D2A03F
+                  6FD555BB52CE6095FE0744935D3C82B886BD291C6F1C200E85350CD123E14444
+                  FDF7C620C32834AF075EEE02DBD5BF50FD0CD581539D5137211B68E6DF200C04
+                  0281402010080402814020100804028140201008040281402010080402814020
+                  7F060DFA3F3EEB05CBEA46A1430000000049454E44AE426082}
+                Fill.Bitmap.WrapMode = TileStretch
+                Fill.Kind = Bitmap
+                Size.Width = 40.000000000000000000
+                Size.Height = 40.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+              end
+            end
+            object Rectangle20: TRectangle
+              Anchors = []
+              Fill.Kind = None
+              Position.X = 110.327697753906300000
+              Position.Y = 17.500000000000000000
+              Size.Width = 79.366661071777340000
+              Size.Height = 100.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Circle10: TCircle
+                Align = Center
+                Fill.Kind = None
+                Size.Width = 88.000000000000000000
+                Size.Height = 88.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = xFF292929
+                Stroke.Thickness = 7.000000000000000000
+              end
+              object Circle11: TCircle
+                Align = Center
+                Fill.Kind = None
+                Size.Width = 50.000000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = xFF292929
+                Stroke.Thickness = 3.000000000000000000
+              end
+              object Arc8: TArc
+                Align = Center
+                Size.Width = 88.000000000000000000
+                Size.Height = 88.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = xFF00A8C6
+                Stroke.Thickness = 7.000000000000000000
+                StartAngle = -90.000000000000000000
+                EndAngle = 90.000000000000000000
+                object FloatAnimation5: TFloatAnimation
+                  Enabled = True
+                  Duration = 2.000000000000000000
+                  PropertyName = 'EndAngle'
+                  StartValue = 0.000000000000000000
+                  StopValue = 90.000000000000000000
+                end
+              end
+              object Arc9: TArc
+                Align = Center
+                Size.Width = 50.000000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = xFFF75B54
+                StartAngle = -90.000000000000000000
+                EndAngle = 60.000000000000000000
+                object FloatAnimation6: TFloatAnimation
+                  Enabled = True
+                  Duration = 2.000000000000000000
+                  PropertyName = 'EndAngle'
+                  StartValue = 0.000000000000000000
+                  StopValue = 60.000000000000000000
+                end
+              end
+              object Circle12: TCircle
+                Align = Center
+                Fill.Bitmap.Bitmap.PNG = {
+                  89504E470D0A1A0A0000000D4948445200000040000000400806000000AA6971
+                  DE000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                  031C49444154785EED9AB16B14411487B377971CA8586811838A9D6840416DD2
+                  290A11414BEDC4A08DD8045110B1130B2DC4D68085FE0136012D244850EC2C14
+                  1314458C2011C58028CAEEDEEE9EDFEEFD1093DCEDCEE245D6BDF960793373EF
+                  DDCCFBDDECDBC9E5FA2C168BC562B1582C1633A2281A6E369BB73DCFFB888DF9
+                  1A86E124769F5CCA0B498EB9AEEB2569B70121AEC9B57CF0C98F927CA05C3B82
+                  DF59859407F2721A8DC6CB568AE920D2374458AFD072405E7B5AE99981002714
+                  5A782AB2A990D336358DC07F58CDC263240084B2A604B285C7548017B246388E
+                  33A36679605B3F8DEFEF2C28820BD480B50A2B0F24354272AEF24C634C21E503
+                  118EC48F3925BA08C6035E3F27D7F2429243F1892F0882E71C873F713E98A53F
+                  C1F87F53F9FFC4912D2C08BB09B3856B90E25A65B3FDA0FD81EB6DA55289DB7F
+                  452E0158CC01167098E6AAD6C8223C1638C5A226D54FC0BFC275866B8786DAF1
+                  93B809E25FC51DE65987FF38F668AD56DB9E782C81DDE7F6F7F74F117393D87B
+                  1A5E3958CC21EEF38885A582DF698524D03FAE9752E1567A2DFF93CCF345C346
+                  700B3E246E7332E14AC124B7345F16D30A49606117349E4A5C4499E38ABAB961
+                  47CC33D76E4D6B8CE94128A6DDB66FC71AD95CD4EBF52A5BF992BAB919181818
+                  6217DD4784B86618934780C28308836C863BEA1A512A0162D845FBD905A3EA66
+                  523A0162D805E36A66524A01A805F1E3DAA8169552000A6A1D0176AA9B4A2105
+                  F07DFF33E62249ECE53AC83D7D9DC75CDE53DF06D9540A27007F63BCE184B78B
+                  13DE550ADA23AE07D56AF53C157E041116E46682D1F792851380644F91F4BCBA
+                  BF616C06112EAB9B09021A1DF30B2500C5EB3D893E567719E4F444CDAE512801
+                  F8F4DFA9D916EAC19C9A5DA368B740D697A90DD9AE51B81AF0AFB102C8F62C56
+                  00D99EC50A20DBB35801647B162B806CCF620590ED59F208D0942D15C602388E
+                  33AB662A51142DF5CBF37BA1ACDF22353CCF8BD44EA5D96C7A6A7607125B1D86
+                  E15DD7757DDE7C19F1FFF630D3F86D544802FDADBEEFCFB5BC3A43FC777C8F29
+                  AC23ACE186E6EA481004CF78AF72FD56D162B1582C168BC5D255FAFA7E01BC7E
+                  990464E8DE910000000049454E44AE426082}
+                Fill.Bitmap.WrapMode = TileStretch
+                Fill.Kind = Bitmap
+                Size.Width = 40.000000000000000000
+                Size.Height = 40.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+              end
+            end
+            object Rectangle21: TRectangle
+              Anchors = []
+              Fill.Kind = None
+              Position.X = 210.289352416992200000
+              Position.Y = 17.500000000000000000
+              Size.Width = 79.394699096679690000
+              Size.Height = 100.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Circle13: TCircle
+                Align = Center
+                Fill.Kind = None
+                Size.Width = 88.000000000000000000
+                Size.Height = 88.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = xFF292929
+                Stroke.Thickness = 7.000000000000000000
+              end
+              object Circle14: TCircle
+                Align = Center
+                Fill.Kind = None
+                Size.Width = 50.000000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = xFF292929
+                Stroke.Thickness = 3.000000000000000000
+              end
+              object Arc10: TArc
+                Align = Center
+                Size.Width = 88.000000000000000000
+                Size.Height = 88.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = xFF46B692
+                Stroke.Thickness = 7.000000000000000000
+                StartAngle = -90.000000000000000000
+                EndAngle = 144.000000000000000000
+                object FloatAnimation7: TFloatAnimation
+                  Enabled = True
+                  Duration = 2.000000000000000000
+                  PropertyName = 'EndAngle'
+                  StartValue = 0.000000000000000000
+                  StopValue = 144.000000000000000000
+                end
+              end
+              object Arc11: TArc
+                Align = Center
+                Size.Width = 50.000000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = xFFF75B54
+                StartAngle = -90.000000000000000000
+                EndAngle = 110.000000000000000000
+                object FloatAnimation8: TFloatAnimation
+                  Enabled = True
+                  Duration = 2.000000000000000000
+                  PropertyName = 'EndAngle'
+                  StartValue = 0.000000000000000000
+                  StopValue = 100.000000000000000000
+                end
+              end
+              object Circle15: TCircle
+                Align = Center
+                Fill.Bitmap.Bitmap.PNG = {
+                  89504E470D0A1A0A0000000D4948445200000040000000400806000000AA6971
+                  DE000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                  01DB49444154785EED9ABD4AC4401485373F24858AE01F28D8D9595A889DB560
+                  A18DEF208860E59BD82ABE8095F59622163E8182B0288885166E6276134FCC29
+                  FCCB62317BB3E3DC0F2E676E9225CC99CC9D099B96A2288AA2288AAB78D4C6C9
+                  F37C0CB28298414C2352CFF3BA4551F4D07E413C223ABEEF3F41FF07E89C8F8E
+                  6F43DB4992BC4107D2EFF74FF853FB41C7177BBDDE05FBF6278661804F15059D
+                  5FCAB2EC2A0882551E6A0C7103CAB98E388BA2688E871A45DC0014B63D8CFC32
+                  D3C6113500231FA7697AC07424103500A3BF16C7F12CD391407A0AAC536B41A5
+                  BF866CA1E82F40A73E070CDC85DA0B3A75FCB19ED580E9710F99E4E52248D780
+                  7297574B1886E718E567A622881A806DEC389B7574A86248D78081C0A05736C5
+                  1829039A400DA03A8BF30618A77C65AD5675F36019DDE06D8C61D513803DC20D
+                  9BC6B0C600EC120BC85D9599C31A0330FA0F08E3FB046B0C0882E0964DA3D8F4
+                  04B86D00305E004B8CFF2F8065F028CBB21DA6DF9988E33864FB0728745D4852
+                  655F89A2681FEF0AA74CED044B79BB5AD16B39E4A562D8340586821A40751635
+                  80EA2C6A00D559D400AAB3A80154675103A8CEA206509D450DA03A8B1A407516
+                  D18FA5F33CDFF43C6F9EE96F5CE27CF99194A2288AA2288A325C5AAD7790CB5D
+                  6728AA7F340000000049454E44AE426082}
+                Fill.Bitmap.WrapMode = TileStretch
+                Fill.Kind = Bitmap
+                Size.Width = 40.000000000000000000
+                Size.Height = 40.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+              end
+            end
+            object Rectangle22: TRectangle
+              Anchors = []
+              Fill.Kind = None
+              Position.X = 310.285095214843800000
+              Position.Y = 17.500000000000000000
+              Size.Width = 79.413223266601560000
+              Size.Height = 100.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Circle16: TCircle
+                Align = Center
+                Fill.Kind = None
+                Size.Width = 88.000000000000000000
+                Size.Height = 88.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = xFF292929
+                Stroke.Thickness = 7.000000000000000000
+              end
+              object Circle17: TCircle
+                Align = Center
+                Fill.Kind = None
+                Size.Width = 50.000000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = xFF292929
+                Stroke.Thickness = 3.000000000000000000
+              end
+              object Arc12: TArc
+                Align = Center
+                Size.Width = 88.000000000000000000
+                Size.Height = 88.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = xFF46B692
+                Stroke.Thickness = 7.000000000000000000
+                StartAngle = -80.000000000000000000
+                EndAngle = 170.000000000000000000
+                object FloatAnimation9: TFloatAnimation
+                  Enabled = True
+                  Duration = 2.000000000000000000
+                  PropertyName = 'EndAngle'
+                  StartValue = 0.000000000000000000
+                  StopValue = 170.000000000000000000
+                end
+              end
+              object Arc13: TArc
+                Align = Center
+                Size.Width = 50.000000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = xFFF75B54
+                StartAngle = -90.000000000000000000
+                EndAngle = 120.000000000000000000
+                object FloatAnimation10: TFloatAnimation
+                  Enabled = True
+                  Duration = 2.000000000000000000
+                  PropertyName = 'EndAngle'
+                  StartValue = 0.000000000000000000
+                  StopValue = 120.000000000000000000
+                end
+              end
+              object Circle18: TCircle
+                Align = Center
+                Fill.Bitmap.Bitmap.PNG = {
+                  89504E470D0A1A0A0000000D4948445200000040000000400806000000AA6971
+                  DE000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                  03FC49444154785EED9A4948556114C7BDB79E43548211160D1464D1C2225B68
+                  4250ABA84544B572958804ADDA44588962AB08826A11B428245A64518B068378
+                  48039415144134102D82CA212BCAF4F9C67EDFBBC742D0E7BBEF8ED4F7838FF3
+                  DDE99CFF77EEF9EEF45E9146A3D168341A8D46A3D1FC8F18624347269351DA2A
+                  B1F3B15F0DC3E8A725B31BFF65D2E9744D2A953A1F8BC50619FC1F581E61FD35
+                  B66F975D27855DD7D322B2E83E08A8F622007ECB18E039069A5603CE05FBF5B0
+                  FF1239540DDAA46D62FD6DDA2D59ED0DC964F221412E10D0B5E9C360E6E2B757
+                  0D2E5FE2F1F8478EDB8B96CEB1B1B17EB58EE4C559B74EDCBA0FCEABB2D181C0
+                  A7308E93800F135FD7B34E1D82BE03E2D61B08D028B1B24825389A0EF86CB0BC
+                  158E9A36D04AD7C0D6A1AB035B2121DC03A76D56C8BF102C8A5920BBD8269148
+                  BCB53C150ED3E7093ABA49C4002D85CE6DE2DE5D087254624E8039D847D02DB2
+                  5BDE70CC5A71E11AF83C28EEF3C2149B17DC87FBA43B81E2E2E24AB6A92BF025
+                  342C95D5F9502FD6319C0435FE43A6691E9355EE43766B54945C5082BF48C409
+                  BACBE4B02999AAA2ECA262A26DB7B8F516E6DB73899B13442518E015258CC559
+                  72F804D8DE61EDED0CA5495CDAC6D61450506227A59B9392929299ECBB8BA971
+                  99F21C64B03749461B6D2BAD8A56C6B6CFB2BB533262BD87841B0CE686957B67
+                  5025A3D2750415704FE4D9C6560570D65661229CB94692F0CC5A5B385449A974
+                  1D819E6FD2B58DAD0490EC261E413F605B29EF8BDCC33FC9A6A0792FD65BA880
+                  7DD99A0B194A9748B48DDD8B60546CD8782CD636B61240D9BF61EE3F90C550C0
+                  1D66986B80AFB7C123044DCB62E0442291280928F84B512109B8CBD5FBB82C06
+                  0E83BF2A5DFFE0BAA39E054E5B97A0E0E0396218532EB2FC87AB6F83FA3263C9
+                  F11F4EC21991E23FC42F1D6F24A2996782774A945F70F6D57BFF6A91E33F045F
+                  8988342DFB1EEA379CFD4E91121CE8E8B2E4F80B491FC14CFBBAED3954C162C4
+                  0C58B2FC83B8DE7EFCB40362EAD1F4DD92E63DBCF93DC2CC90F0E180245423EC
+                  8525D13BA4DAEC7C72F30F8445484433F62942534AB09BA88B2DFE374BB87083
+                  D00ADA61442744BF23F013C7EC10F7E106A1E5DCA2CE227ADADFF8F2013FA324
+                  73A7B80F2F885C88DE76040F59D29D83AF41FC6E9410E1027DEA09B096D6C219
+                  BF835857CA7D1C7C76E37B91840B16F4CC46CC7EAEF4BDEAA72C06FBC392E93E
+                  BC6AF713AB896EF8FEBC81B01508EB2201C9AC5A7751CF12EDC49823E1C28B2A
+                  4D5A0BD5F0DAD25E182A91709FEE1EDAA43F9E788DE33223116B301B18401DFD
+                  5AE6EEF2A93E7753DE5FD8F692FD5E1986D1C3AAA8699A43D6D660F0649EA9B3
+                  499B4757FD461FA3FD548DC12AABD168341A8D46A3D168349A60292AFA0DD40A
+                  08D161D0E01E0000000049454E44AE426082}
+                Fill.Bitmap.WrapMode = TileStretch
+                Fill.Kind = Bitmap
+                Size.Width = 40.000000000000000000
+                Size.Height = 40.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+              end
+            end
+          end
+        end
+        object Text12: TText
+          Align = Client
+          Size.Width = 400.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Leading
+          object Rectangle15: TRectangle
+            Align = Client
+            Fill.Kind = None
+            Size.Width = 400.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+            object Rectangle17: TRectangle
+              Anchors = []
+              Fill.Color = x009F8241
+              Position.X = 54.472293853759770000
+              Position.Y = 8.000000000000000000
+              Size.Width = 17.000000000000000000
+              Size.Height = 17.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+            end
+            object Rectangle18: TRectangle
+              Anchors = []
+              Fill.Color = xFFF75B54
+              Position.X = 226.764480590820300000
+              Position.Y = 8.000000000000000000
+              Size.Width = 17.000000000000000000
+              Size.Height = 17.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+            end
+            object Text37: TText
+              Anchors = []
+              Position.X = 254.225448608398400000
+              Position.Y = 4.000000000000000000
+              Size.Width = 85.000000000000000000
+              Size.Height = 25.000000000000000000
+              Size.PlatformDefault = False
+              Text = 'Yesterday'
+              TextSettings.FontColor = claWhite
+              TextSettings.HorzAlign = Leading
+            end
+            object Text39: TText
+              Anchors = []
+              Position.X = 78.910583496093750000
+              Position.Y = 4.000000000000000000
+              Size.Width = 85.000000000000000000
+              Size.Height = 25.000000000000000000
+              Size.PlatformDefault = False
+              Text = 'Today'
+              TextSettings.FontColor = claWhite
+              TextSettings.HorzAlign = Leading
+            end
+          end
+        end
+        object Text38: TText
+          Position.Y = 201.000000000000000000
+          Size.Width = 100.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = '2534'
+          TextSettings.Font.Family = 'Tahoma'
+          TextSettings.FontColor = xFFEDEDED
+          object Text40: TText
+            Position.X = 99.000000000000000000
+            Size.Width = 100.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            Text = '3450'
+            TextSettings.Font.Family = 'Tahoma'
+            TextSettings.FontColor = xFFEDEDED
+            object Text41: TText
+              Position.X = 99.000000000000000000
+              Size.Width = 100.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Text = '6543'
+              TextSettings.Font.Family = 'Tahoma'
+              TextSettings.FontColor = xFFEDEDED
+              object Text42: TText
+                Position.X = 100.000000000000000000
+                Size.Width = 100.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                Text = '8970'
+                TextSettings.Font.Family = 'Tahoma'
+                TextSettings.FontColor = xFFEDEDED
+              end
+            end
+          end
+        end
+        object Rectangle16: TRectangle
+          Align = Client
+          EnableDragHighlight = False
+          Fill.Kind = None
+          Size.Width = 400.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object Rectangle23: TRectangle
+            Align = Client
+            EnableDragHighlight = False
+            Fill.Color = xFF1E242C
+            Margins.Top = 20.000000000000000000
+            Margins.Bottom = 2.000000000000000000
+            Size.Width = 400.000000000000000000
+            Size.Height = 11.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+            object Rectangle24: TRectangle
+              Align = Client
+              EnableDragHighlight = False
+              Fill.Color = xFF46B692
+              Margins.Right = 80.000000000000000000
+              Size.Width = 320.000000000000000000
+              Size.Height = 11.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object FloatAnimation11: TFloatAnimation
+                Enabled = True
+                Duration = 2.000000000000000000
+                PropertyName = 'Margins.Right'
+                StartValue = 317.000000000000000000
+                StopValue = 80.000000000000000000
+              end
+            end
+          end
+          object Text43: TText
+            Anchors = []
+            Position.X = 1.500000000000000000
+            Size.Width = 397.000000000000000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            Text = 
+              'Sent                                                            ' +
+              '                                          20.000'
+            TextSettings.FontColor = xFFEFEFEF
+            TextSettings.HorzAlign = Leading
+          end
+        end
+        object Rectangle25: TRectangle
+          Align = Client
+          EnableDragHighlight = False
+          Fill.Kind = None
+          Size.Width = 400.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object Rectangle26: TRectangle
+            Align = Client
+            EnableDragHighlight = False
+            Fill.Color = xFF1E242C
+            Margins.Top = 20.000000000000000000
+            Margins.Bottom = 2.000000000000000000
+            Size.Width = 400.000000000000000000
+            Size.Height = 11.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+            object Rectangle27: TRectangle
+              Align = Client
+              EnableDragHighlight = False
+              Fill.Color = xFF46B692
+              Margins.Right = 250.000000000000000000
+              Size.Width = 150.000000000000000000
+              Size.Height = 11.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object FloatAnimation12: TFloatAnimation
+                Enabled = True
+                Duration = 2.000000000000000000
+                PropertyName = 'Margins.Right'
+                StartValue = 317.000000000000000000
+                StopValue = 250.000000000000000000
+              end
+            end
+          end
+          object Text44: TText
+            Anchors = []
+            Position.X = 2.005056142807007000
+            Size.Width = 397.000000000000000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            Text = 
+              'Delivered                                                       ' +
+              '                                     1000.00'
+            TextSettings.FontColor = xFFEFEFEF
+            TextSettings.HorzAlign = Leading
+          end
+        end
+        object Rectangle28: TRectangle
+          Align = Client
+          EnableDragHighlight = False
+          Fill.Kind = None
+          Size.Width = 400.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object Rectangle29: TRectangle
+            Align = Client
+            EnableDragHighlight = False
+            Fill.Color = xFF1E242C
+            Margins.Top = 20.000000000000000000
+            Margins.Bottom = 2.000000000000000000
+            Size.Width = 400.000000000000000000
+            Size.Height = 11.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+            object Rectangle30: TRectangle
+              Align = Client
+              EnableDragHighlight = False
+              Fill.Color = xFFF75B54
+              Margins.Right = 300.000000000000000000
+              Size.Width = 100.000000000000000000
+              Size.Height = 11.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object FloatAnimation13: TFloatAnimation
+                Enabled = True
+                Duration = 2.000000000000000000
+                PropertyName = 'Margins.Right'
+                StartValue = 317.000000000000000000
+                StopValue = 300.000000000000000000
+              end
+            end
+          end
+          object Text45: TText
+            Anchors = []
+            Position.X = 2.005056142807007000
+            Size.Width = 397.000000000000000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            Text = 
+              'Bounced                                                         ' +
+              '                                      10.000'
+            TextSettings.FontColor = xFFEFEFEF
+            TextSettings.HorzAlign = Leading
+          end
+        end
+      end
+    end
+  end
+end
